@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_analysis"
+        android:icon="@drawable/ic_multiline_chart_black_24dp"
+        android:title="@string/navigation_analysis" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_map_black_24dp"
+        android:title="@string/navigation_map" />
+
+    <item
+        android:id="@+id/navigation_mine"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/navigation_mine" />
+</menu>

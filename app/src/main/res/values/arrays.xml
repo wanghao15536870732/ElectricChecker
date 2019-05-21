@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sections">
+        <item>今日</item>
+        <item>本周</item>
+        <item>本月</item>
+        <item>历史</item>
+    </string-array>
+
+</resources>

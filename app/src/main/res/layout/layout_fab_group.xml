@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.barackbao.electricmonitoring.widget.FloatingActionButtonPlus
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/FabPlus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    app:animationMode="bounce"
+    app:layout_behavior="com.barackbao.electricmonitoring.widget.FabBehavior"
+    app:switchFabColor="#8fc0f9"
+    app:switchFabIcon="@drawable/ic_add_black_24dp">
+
+    <com.barackbao.electricmonitoring.widget.FabTagLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="切换楼层">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_map_black_24dp"
+            app:backgroundTint="#468cb7"
+            app:fabSize="mini" />
+    </com.barackbao.electricmonitoring.widget.FabTagLayout>
+
+    <com.barackbao.electricmonitoring.widget.FabTagLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="楼层分析">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_multiline_chart_black_24dp"
+            app:backgroundTint="#818aa7"
+            app:fabSize="mini" />
+    </com.barackbao.electricmonitoring.widget.FabTagLayout>
+
+    <com.barackbao.electricmonitoring.widget.FabTagLayout
+        android:id="@+id/change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="切换省份">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_change"
+            app:backgroundTint="#818aa7"
+            app:fabSize="mini" />
+    </com.barackbao.electricmonitoring.widget.FabTagLayout>
+
+
+</com.barackbao.electricmonitoring.widget.FloatingActionButtonPlus>

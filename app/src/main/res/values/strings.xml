@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">"智"存高远</string>
+    <string name="navigation_analysis">设备</string>
+    <string name="navigation_map">地图</string>
+    <string name="navigation_mine">我的</string>
+    <string name="title_groups_single">单层显示</string>
+    <string name="demo_title_zoom">缩放控件</string>
+    <style name="select_province">切换省份</style>
+</resources>
