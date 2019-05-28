@@ -6,11 +6,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
-
 import com.barackbao.electricmonitoring.R;
 import com.barackbao.electricmonitoring.utils.FileUtils;
 import com.barackbao.electricmonitoring.utils.RequestPermission;
@@ -31,7 +29,6 @@ import com.fengmap.android.widget.FM3DControllerButton;
 import com.fengmap.android.widget.FMFloorControllerComponent;
 import com.fengmap.android.widget.FMMultiFloorControllerButton;
 import com.fengmap.android.widget.FMZoomComponent;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -52,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements OnFMMapInitListen
     private FloatingActionButtonPlus mFabGroup;
     FM3DControllerButton mTextBtn;
     FMFloorControllerComponent mFloorControllerComponent;
-     FMMultiFloorControllerButton mMultiFloorButton;
+    FMMultiFloorControllerButton mMultiFloorButton;
 
     private OnFMNodeListener mOnModelClickListener = new OnFMNodeListener() {
         @Override
